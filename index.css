@@ -1,0 +1,39 @@
+@media only screen and (min-width: 600px) {
+    body {
+        background-color: orange;
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    body {
+        background-color: red;
+        font-family: Arial, halvetica, sans-serif;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    body {
+        background-color: coral;
+        font-family: impact, arial Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    body {
+        background-color: salmon;
+        font-family: 'Times New Roman', Times, serif;
+        display: flex;
+    }
+}
+
+@media only screen and (max-width: 1500px) {
+    body {
+        background-color: royalblue,aliceblue;
+        font-family: arial black;
+        display: flex;
+    }
+}
